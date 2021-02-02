@@ -1,0 +1,7 @@
+chrisapp~=2.1.0
+pudb
+pfdo
+pfdo_mgz2image
+faker
+pftree
+scikit-image
