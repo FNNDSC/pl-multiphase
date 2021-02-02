@@ -6,7 +6,7 @@ with open(path.join(path.dirname(path.abspath(__file__)), 'README.rst')) as f:
 
 setup(
     name             = 'multiphase',
-    version          = '1.0.0',
+    version          = '1.0.2',
     description      = 'This ChRIS plugin simply runs/execs other apps (these must be in the container) multiple times, each time with a slightly different set of CLI. ',
     long_description = readme,
     author           = 'FNNDSC / Rudolph Pienaar',

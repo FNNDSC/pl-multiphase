@@ -68,14 +68,16 @@ Gstr_synopsis = """
         the same <inputDir>. Each run, or phase, differs in the
         set of <pipeSeparatedSpecificArgs> that is passed to the app.
 
-        In each phase, the <commonArgs> is passed.
+        In each phase, the <commonArgs> remains constant.
 
         The main purpose of this plugin is to allow for one simple
         mechanism of running slightly different flags over the
         same <inputDir> space in several phases, and capturing
         the multiple outputs in the <outputDir>. In the context of
         a `ChRIS` feed tree, this has the effect of having one feed
-        thread have effectively multiple runs of some <appToRun>.
+        thread contain effectively multiple runs of some <appToRun>
+        in one <outputDir>. In some cases this can be a useful
+        execution model.
 
     ARGS
 
